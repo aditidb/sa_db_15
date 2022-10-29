@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Creepster);
+body {
+  background: #000;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.spooky-left {
+  position: absolute;
+  top: -50px;
+  left: -30px;
+  width: 40%;
+  height: 60%;
+  opacity: 0.25;
+}
+
+.spooky-right {
+  position: absolute;
+  right: 0;
+  width: 40%;
+  height: 60%;
+  top: -30px;
+  opacity: 0.25;
+}
+
+#spook1,
+#spook2,
+#spook3,
+#spook4,
+#spook5,
+#spook6 {
+  position: absolute;
+  left: -500px;
+  opacity: 0.3;
+  z-index: 500;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+#spook1:hover {
+  opacity: 0.6;
+}
+#spook2:hover {
+  opacity: 0.6;
+}
+#spook3:hover {
+  opacity: 0.6;
+}
+#spook4:hover {
+  opacity: 0.6;
+}
+#spook5:hover {
+  opacity: 0.6;
+}
+#spook6:hover {
+  opacity: 0.6;
+}
+
+.grow {
+  transition: all 0.3s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.75);
+}
+
+.head_colour {
+  position: relative;
+  /* top: 25%;
+      left: 50%;
+      margin-left: -300px; */
+  font-size: 6em;
+  color: gray;
+  text-shadow: 0 0 1em gray;
+  pointer-events: none;
+  font-family: "Creepster";
+}
